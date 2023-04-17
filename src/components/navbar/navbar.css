@@ -1,0 +1,57 @@
+nav
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+nav .left span
+{
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav .right ul
+{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav .right 
+{
+    display: flex;
+}
+
+nav .right button
+{
+    background-color: plum;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15px;
+    height: 40px;
+    position: relative;
+    top: -5px;
+}
+
+nav .right button span
+{
+    margin-left: 10px;
+}
+
+button
+{
+    margin-left: 15px;
+}
+
+nav .right ul li
+{
+    margin-left: 20px;
+}
